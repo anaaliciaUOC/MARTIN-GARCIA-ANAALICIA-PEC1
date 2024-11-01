@@ -46,8 +46,8 @@ if (!requireNamespace("reshape2", quietly = TRUE)) {
 library(readxl)
 library(tidyverse)
 library(limma)
-ph_Data <- read_excel("C:/Users/Ana Alicia/Documents/2-MSc BIOINFORMATICA/Datos ómicos/github/metaboData/Datasets/2018-Phosphoproteomics/TIO2+PTYR-human-MSS+MSIvsPD.xlsx",sheet=1)
-targets <- read_excel("C:/Users/Ana Alicia/Documents/2-MSc BIOINFORMATICA/Datos ómicos/github/metaboData/Datasets/2018-Phosphoproteomics/TIO2+PTYR-human-MSS+MSIvsPD.xlsx",sheet=2)
+ph_Data <- read_excel("/TIO2+PTYR-human-MSS+MSIvsPD.xlsx",sheet=1)
+targets <- read_excel("/TIO2+PTYR-human-MSS+MSIvsPD.xlsx",sheet=2)
 ```
 
 ## PEC 1 - Ana Alicia Martín García
